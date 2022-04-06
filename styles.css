@@ -1,21 +1,29 @@
+.header > nav{
+    float:right; /*Place everything on the right side of the div*/
+    height: 100%; /*Takes 100% of the parent height*/
+    display:flex; 
+    flex-direction:column;
+}
 .header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    flex-wrap: wrap;
-    justify-content:end;
-    flex-direction: row-reverse;
     height: 100px;
     border-bottom: 1px solid gray;
+}
+#idk{
+    position: relative;
 }
 .logo{
     width: 10px;
     height: 10px;
 }
-#page-operations{
-    display: inline;
-    width: 50px;
+#page-operations{ /*It took me an hour to make this navigation.*/
     text-align: end;
-    position: relative;
-    
+    align-self: flex-end;
+    margin-top: 50px;
+    max-width: 100%;
+    white-space: nowrap;
+    width:fit-content;
+    margin-right: 265px;
 }
 .title {
     border-bottom: 2px solid black;
