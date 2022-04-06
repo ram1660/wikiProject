@@ -8,8 +8,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100px;
     border-bottom: 1px solid gray;
+    background-color:#d8dee9;
+
 }
-#idk{
+#account-actions{
     position: relative;
 }
 .logo{
@@ -23,7 +25,10 @@
     max-width: 100%;
     white-space: nowrap;
     width:fit-content;
-    margin-right: 265px;
+}
+#page-operations > span{
+    border-right: 1px solid #91a7ff;
+    padding-right: 3px;
 }
 .title {
     border-bottom: 2px solid black;
