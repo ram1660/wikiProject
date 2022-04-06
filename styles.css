@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    height: 100px;
+}
+.title {
+    border-bottom: 2px solid black;
+    margin-bottom: 3px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.7cm;
+    width: 75%;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apple-images {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#aside-info {
+    position: absolute; /* Pretty hardcoded*/
+    left: 1500px;
+    top: 80px;
+    border: 2px solid gray;
+}
+.side-info-aligment{
+    vertical-align: middle;
+    line-height: 1.5;
+    text-align: center;
+}
+.side-info-title {
+    position: relative;
+    background-color: greenyellow;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 93, 124);
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+#intro p {
+    width: 50%;
+    height: auto;
+}
+
+#content-list {
+    border: 2px solid black;
+    background-color: aquamarine;
+    position: relative;
+    width: 250px;
+}
+
+#content-list label {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.little-tab {
+    padding-left: 10px;
+}
+
+ol.table-of-content {
+    counter-reset: item
+}
+
+ol.table-of-content > li {
+    display: block
+}
+
+ol.table-of-content > li::before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
