@@ -1,2 +1,2 @@
 # Wiki page replica
-This project replicate a page for Wikipedia.
+This project tries to replicates a page for Wikipedia.
