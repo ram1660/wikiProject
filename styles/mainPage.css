@@ -1,5 +1,6 @@
 :root{
     --wiki-bg: #f8f9fa;
+    --wiki-border: #98f5ff;
 }
 
 .header > nav{
@@ -13,7 +14,7 @@
 .header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 150px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--wiki-border);
     background-color:var(--wiki-bg);
 
 }
@@ -126,4 +127,8 @@ ol.table-of-content > li {
 ol.table-of-content > li::before {
     content: counters(item, ".") " ";
     counter-increment: item;
+}
+
+#section{
+    display:flex;
 }
