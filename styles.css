@@ -30,6 +30,13 @@
     border-right: 1px solid #91a7ff;
     padding-right: 3px;
 }
+#page-operations > input{
+    width: 200px;
+    background: url("https://en.wikipedia.org/w/skins/Vector/resources/common/images/search.svg?bbf78");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 1.5em;
+}
 .title {
     border-bottom: 2px solid black;
     margin-bottom: 3px;
