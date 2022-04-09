@@ -1,6 +1,8 @@
 #left-side-panel{
     background-color: var(--wiki-bg);
     margin-right: 20px;
+    border-right: 1px solid var(--wiki-border);
+    padding-right: 20px;
 }
 .list-side-panel{
     padding-top: 10%;
@@ -12,7 +14,6 @@
     width: 100%;
     margin-right: 40px;
     font-size: small;
-
 }
 .list-side-panel li{
     padding-bottom: 5px;
