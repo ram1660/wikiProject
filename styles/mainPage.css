@@ -133,3 +133,13 @@ ol.table-of-content > li::before {
 #section{
     display:flex;
 }
+
+.sub-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.off-topic-info{
+    padding-left: 30px;
+    margin: 10px 0px;
+    font-style: italic;
+}
