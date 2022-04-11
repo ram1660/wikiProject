@@ -1,7 +1,7 @@
 :root{
     --wiki-bg: #f8f9fa;
     --wiki-border: #98f5ff;
-    --spacing-line: 1.5;
+    --spacing-line: 1.8;
 }
 
 .header > nav{
@@ -156,7 +156,7 @@ ol.table-of-content > li::before {
     justify-content:center;
     
 }
-.pests-and-diseases-list{
+.body-list{
     width: 75%;
     line-height: var(--spacing-line);
 }
