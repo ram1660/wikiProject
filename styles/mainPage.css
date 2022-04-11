@@ -143,3 +143,15 @@ ol.table-of-content > li::before {
     margin: 10px 0px;
     font-style: italic;
 }
+
+.apple-type{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.apple-collection{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
