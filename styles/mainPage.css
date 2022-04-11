@@ -1,6 +1,7 @@
 :root{
     --wiki-bg: #f8f9fa;
     --wiki-border: #98f5ff;
+    --spacing-line: 1.5;
 }
 
 .header > nav{
@@ -12,7 +13,7 @@
     /* align-content: space-between;  */
 }
 .header{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     height: 150px;
     border-bottom: 1px solid var(--wiki-border);
     background-color:var(--wiki-bg);
@@ -46,8 +47,8 @@
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 0.7cm;
+    font-family: sans-serif;
+    line-height: var(--spacing-line);
     width: 75%;
 }
 
@@ -71,7 +72,7 @@ p {
 }
 .side-info-aligment{
     vertical-align: middle;
-    line-height: 1.5;
+    line-height: var(--spacing-line);
     text-align: center;
 }
 .side-info-title {
@@ -154,4 +155,11 @@ ol.table-of-content > li::before {
     flex-wrap: wrap;
     justify-content:center;
     
+}
+.pests-and-diseases-list{
+    width: 75%;
+    line-height: var(--spacing-line);
+}
+:root{
+    font-family: sans-serif;
 }
